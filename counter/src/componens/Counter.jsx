@@ -16,8 +16,8 @@ export function Counter({ index }) {
     <h3>counter #{index}</h3>
       <p>{cnt}</p>
       <button onClick={inc}>INC</button>
-      <button onClick={dec}>DEC</button>
       <button onClick={rst}>RST</button>
+      <button onClick={dec}>DEC</button>
     </div>
   );
 }
