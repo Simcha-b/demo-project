@@ -4,7 +4,7 @@ function NumKey({number,click}) {
   return (
     <div>
         
-        <button onClick={()=> {click(number)}}>{number}</button>
+        <button onClick={click}>{number}</button>
     </div>
   )
 }
