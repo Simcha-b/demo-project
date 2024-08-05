@@ -4,8 +4,6 @@ function App4() {
   const [sum, setSum] = useState(0);
   function add(event) {
     setSum(sum + Number(event.target.textContent));
-    console.log(event);
-    console.log(event.target.tag);
   }
   function addKey(num) {
     const arr = [];
