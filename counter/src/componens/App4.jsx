@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import NumKey from "./NumKey";
 function App4() {
   const [sum, setSum] = useState(0);
-  function add(event) {
-    // console.log(event.target.value);
-    
-    setSum((sum + event.target.value));
+  function add(i) {
+    console.log(i);
+    setSum(sum + i);
   }
   function addKey(num) {
     const arr = [];
